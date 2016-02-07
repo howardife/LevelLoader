@@ -128,7 +128,7 @@ public class SnapToGrid : EditorWindow {
     {
         if (File.Exists(Application.persistentDataPath + "/" + s + ".dat"))
         {
-            GameObject[] cubes = GameObject.FindGameObjectsWithTag("Cubes");
+            GameObject[] cubes = GameObject.FindGameObjectsWithTag("Cube");
             for (int i = 0; i < cubes.Length; i++)
             {
                 DestroyImmediate(cubes[i]);
